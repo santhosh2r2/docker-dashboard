@@ -3,7 +3,9 @@
 based on the https://github.com/stevehobbsdev/docker-dashboard-example.git
 
 the sample is extended to support Bootstrap 4.x
+
 this repo includes following technologies:
+
 1. Nodejs
 2. Express
 3. Typescript
@@ -11,6 +13,7 @@ this repo includes following technologies:
 5. Socket.io
 6. Webpack
 7. Bootstrap 4.x
+8. Docker
 
 ## Software 
 
