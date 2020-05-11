@@ -18,7 +18,9 @@ module.exports = new Docker(options);
 
 /* 
 
-Activate: Docker API on the Ubuntu docker-engine as follows
+NOTE: This is not applicable for Docker For Windows
+
+Activating Docker API for the Ubuntu docker-engine as follows
 
 sudo edit /lib/systemd/system/docker.service 
 ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H=tcp://0.0.0.0:5555

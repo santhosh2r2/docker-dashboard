@@ -65,7 +65,7 @@ export class NewContainerDialog extends React.Component<
                 className="form-control"
                 onChange={this.onImageNameChange.bind(this)}
                 id="imageName"
-                placeholder="e.g mongodb:latest"
+                placeholder="e.g hello-world:latest"
               />
             </div>
           </div>
