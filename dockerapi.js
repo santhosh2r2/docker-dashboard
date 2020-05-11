@@ -2,10 +2,10 @@ let Docker = require("dockerode");
 let isWindows = process.platform === "win32";
 
 let options = {};
-
+/*
 if (isWindows) {
   options = {
-    host: "192.168.91.153",
+    host: "0.0.0.0",
     port: 5555,
   };
 } else {
@@ -13,6 +13,11 @@ if (isWindows) {
     socketPath: "/var/run/docker.sock",
   };
 }
+*/
+options = {
+    host: "0.0.0.0",
+    port: 5555,
+  };
 
 module.exports = new Docker(options);
 

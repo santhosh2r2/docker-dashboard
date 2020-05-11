@@ -6,7 +6,7 @@ let io = require("socket.io")(server);
 let docker = require("./dockerapi");
 
 // Use the environment port if available, or default to 3000
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 3001;
 
 // Serve static files from /public
 app.use(express.static("public"));
@@ -21,6 +21,8 @@ server.listen(port, () =>
 
 io.on("connection", (socket) => {
   socket.on("containers.list", () => {
+    console.log("docker: " + docker.info());
+    
     refreshContainers();
   });
   socket.on("container.start", (args) => {

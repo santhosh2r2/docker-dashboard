@@ -6,5 +6,11 @@ services:
             context: .
         image: dash-docker
         ports:
-            - "3000:3000"
+            - "3001:3001"
         restart: always
+        networks: 
+            my-host:
+
+networks: 
+    my-host:
+        driver: host
