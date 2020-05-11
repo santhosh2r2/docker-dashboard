@@ -1,0 +1,39 @@
+{
+  "name": "docker-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -p && node server.js",
+    "start-dev": "./node_modules/.bin/concurrently \"nodemon server.js\" \"webpack --watch\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.2",
+    "@types/classnames": "^2.2.10",
+    "@types/jquery": "^3.3.38",
+    "@types/lodash": "^4.14.150",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/socket.io": "^2.1.4",
+    "@types/socket.io-client": "^1.4.32",
+    "concurrently": "^5.2.0",
+    "dockerode": "^3.2.0",
+    "nodemon": "^2.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "socket.io": "^2.3.0"
+  }
+}
