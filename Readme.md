@@ -4,7 +4,7 @@ based on the https://github.com/stevehobbsdev/docker-dashboard-example.git
 
 sample docker image to be found under: 
 
-https://hub.docker.com/repository/docker/santhoshdse/docker-dashboard/general
+https://hub.docker.com/r/santhoshdse/docker-dashboard
 
 the sample is extended to support Bootstrap 4.x
 
