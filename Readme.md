@@ -2,7 +2,7 @@
 
 based on the https://github.com/stevehobbsdev/docker-dashboard-example.git
 
-sample docker image to be found under: 
+sample docker image to be found under:
 
 https://hub.docker.com/r/santhoshdse/docker-dashboard
 
@@ -19,7 +19,7 @@ this repo includes following technologies:
 7. Bootstrap 4.x
 8. Docker
 
-## Software 
+## Software
 
 **Node 12.16.1**
 
@@ -42,15 +42,20 @@ npm install
 npm link typescript
 ```
 
-## Starting instructions
-Make sure to update the dockerapi.js file to the correct IP-Address, in case of Windows OS system.
+## Usage
+
+- Update the correct IP-Address in the dockerapi.js file.
+- Make sure port 5555 is used for Remote Docker API.
+
+`NOTE:` refer [DockerApi](dockerapi.js) for instructions to activate Docker API.
 
 ```
 npm start
 ```
 
 ### Sample images
-|Description|Image|
-|-----|-----|
-|Home page|![](images/home_page.png)|
-|Container run|![](images/container_run.png)|
+
+| Description   | Image                         |
+| ------------- | ----------------------------- |
+| Home page     | ![](images/home_page.png)     |
+| Container run | ![](images/container_run.png) |
