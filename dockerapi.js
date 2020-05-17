@@ -15,9 +15,9 @@ if (isWindows) {
 }
 */
 options = {
-    host: "0.0.0.0",
-    port: 5555,
-  };
+  host: "192.168.91.153",
+  port: 5555,
+};
 
 module.exports = new Docker(options);
 
