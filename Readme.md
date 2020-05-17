@@ -44,8 +44,8 @@ npm link typescript
 
 ## Usage
 
-- Update the correct IP-Address in the dockerapi.js file.
-- Make sure port 5555 is used for Remote Docker API.
+- Update the correct IP-Address in the dockerapi.js file, eg. `192.168.91.153`
+- Make sure port `5555` is used for Remote Docker API.
 
 `NOTE:` refer [DockerApi](dockerapi.js) for instructions to activate Docker API.
 
